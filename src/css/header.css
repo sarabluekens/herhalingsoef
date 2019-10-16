@@ -6,10 +6,7 @@ h1 {
   position: relative;
 
   &::after {
-    content: "";
-    background-image: url("../assets/img/balloon.png");
-    background-size: contain;
-    background-repeat: no-repeat;
+    content: '';
     position: absolute;
     height: 100%;
     width: 40vw;
