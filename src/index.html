@@ -17,12 +17,16 @@
         </a>
         <h1 class="h1-like">What do you want to order? 🌱</h1>
       </div>
+      <picture class="cup">
+          <source media="(min-width 411px)" srcset="./assets/img/plan-based-coffee.png 132w, ./assets/img/plan-based-coffee@2x.png 2x" />
+          <img class="img--full" src="./assets/img/plan-based-coffee.png" alt="ill coffee">
+        </picture>
     </header>
     <section class="prices highlight spaced">
       <h2 class="visually-hidden">Price list</h2>
       <ul class="prices__list">
-        <!--
-          TEMPLATE
+<!--
+          TEMPLATE -->
           <li class="price">
             <a class="price__button">
               <span class="price__button__wrapper">
@@ -31,8 +35,15 @@
               </span>
               <span class="price__button__plus">+</span>
             </a>
+            <a class="price__button">
+                <span class="price__button__wrapper">
+                  <span class="price__button__name">Drink name</span>
+                  <span class="price__button__amount">&euro; 3,00</span>
+                </span>
+                <span class="price__button__plus">+</span>
+              </a>
           </li>
-        -->
+<!--  -->
       </ul>
     </section>
     <section class="content spaced">
@@ -52,14 +63,17 @@
               </li>
             -->
         </ul>
-        <p class="total">
-          <span class="total__label">Total price</span>
+        <!-- <p class="total">
+          <span class="total__label">Total</span>
           <span class="total__price">&euro; <span>0,00</span></span>
-        </p>
+        </p> -->
       </div>
       <div class="emptystate">
-        <img srcset="./assets/img/coffee-maker.jpg 67w,
-          ./assets/img/coffee-maker@2x.jpg 134w" sizes="67px" src="./assets/img/coffee-maker.jpg" alt="A coffee maker">
+
+          <picture>
+              <source media="(min-width: 411px)" srcset="assets/img/coffee-maker.jpg 67w, assets/img/coffee-maker@2x.jpg 2x" />
+              <img class="molen" src="assets/img/coffee-maker.jpg" alt="ill molen">
+            </picture>
 
         <span class="emptystate__content">
           Please order something

@@ -1,6 +1,8 @@
 :root {
   --backgroundHeader: #f9d2cb;
   --backgroundOrder: white;
+  --backgroundButton: white;
+  --plusBackground: #a3f4dc;
   --textColor: #212121;
   --margin: 3rem;
   --fontTitle: 2.6rem;
@@ -8,4 +10,5 @@
   --fontSubtext: 1.2rem;
   --StyleTitle: bold;
   --StyleText: medium;
+
 }

@@ -1,6 +1,8 @@
 @import './css/reset.css';
 @import './css/vars.css';
 @import './css/header.css';
+@import './css/pricelist.css';
+@import './css/order.css';
 
 html {
   box-sizing: border-box;
@@ -16,9 +18,8 @@ html {
 /* stylelint-enable */
 
 body {
-  font-size: 2rem;
   font-family: roboto, sans-serif;
-  background-color: var(--backgroundColor);
+  background-color: var(--backgroundHeader);
   color: var(--textColor);
   margin: 3rem;
 }
@@ -26,20 +27,6 @@ body {
 .visually-hidden {
   display: none;
 }
-
-.h2-like {
-  font-size: var(--fontText);
-  font-style: var(--StyleText);
-}
-
-.header {
-  background-color: #f9d2cb;
-}
-
-.content {
-  background-color: var(--backgroundOrder);
-}
-
 /* strong {
   font-weight: var(--fontStyleText);
 

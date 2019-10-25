@@ -3,12 +3,33 @@ h1 {
   font-style: var(--fontStyleTitle);
 }
 
+.header {
+  background-color: var(--backgroundHeader);
+}
+
 @media only screen and (min-width: 411px) {
 
+  .header {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+
+    margin: 3rem;
+  }
+
   .header__titles {
-    background-image: url(../assets/img/plan-based-coffee.png);
-    background-repeat: no-repeat;
     width: 44vw;
-    align-self: right;
+  }
+
+  .h2-like {
+    font-size: var(--fontSubtext);
+    font-style: var(--StyleText);
+  }
+
+  .h1-like {
+    font-size: var(--fontTitle);
+    font-weight: 500;
+    line-height: 2.8rem;
   }
 }
