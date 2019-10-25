@@ -1,6 +1,11 @@
 :root {
-  --backgroundColor: #eaeae9;
-  --textColor: #463636;
-  --anotherColor: #bada55;
-  --margin: 2rem;
+  --backgroundHeader: #f9d2cb;
+  --backgroundOrder: white;
+  --textColor: #212121;
+  --margin: 3rem;
+  --fontTitle: 2.6rem;
+  --fontText: 1.8rem;
+  --fontSubtext: 1.2rem;
+  --StyleTitle: bold;
+  --StyleText: medium;
 }
