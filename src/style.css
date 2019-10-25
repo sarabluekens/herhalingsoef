@@ -29,12 +29,17 @@ body {
 
 .h2-like {
   font-size: var(--fontText);
-  font-style: var(--fontStyleText);
+  font-style: var(--StyleText);
+}
+
+.header {
+  background-color: #f9d2cb;
 }
 
 .content {
-  background-color: var(--orderBackgroundColor);
+  background-color: var(--backgroundOrder);
 }
+
 /* strong {
   font-weight: var(--fontStyleText);
 
