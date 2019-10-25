@@ -33,3 +33,39 @@ h1 {
     line-height: 2.8rem;
   }
 }
+
+@media only screen and (min-width: 823px) {
+
+  .layout {
+    display: grid;
+    grid-template-areas:
+    'titles order'
+    'price order';
+  }
+
+  .header {
+    width: 33vw;
+  }
+
+  .header__titles {
+    grid-area: titles;
+    align-self: self-start;
+  }
+
+  .img--full {
+    position: absolute;
+    left: 90px;
+    top: 600px;
+  }
+
+  .prices {
+    grid-area: price;
+    width: 30vw;
+  }
+
+  .content {
+    grid-area: order;
+    width: 70vw;
+    height: 100vh;
+  }
+}
