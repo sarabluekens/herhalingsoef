@@ -1,9 +1,3 @@
-.price {
-  display: flex;
-  flex-direction: row wrap;
-  justify-content: space-between;
-  margin-bottom: 3rem;
-}
 
 .price__button {
   width: 17rem;
@@ -42,4 +36,35 @@
   font-size: 2.4rem;
   border-radius: .4rem;
   align-self: right;
+}
+
+@media only screen and (min-width: 411px) {
+
+  .price {
+    display: flex;
+    flex-direction: row wrap;
+    justify-content: space-between;
+    margin-bottom: 3rem;
+  }
+}
+
+@media only screen and (min-width: 823px) {
+
+  .prices {
+    grid-area: price;
+    width: 30vw;
+  }
+
+  .price {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .prices__list {
+    margin: 6rem;
+  }
+
+  .price__button {
+    margin: 2rem;
+  }
 }

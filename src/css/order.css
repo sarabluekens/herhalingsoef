@@ -13,9 +13,12 @@
 .total {
   background-color: #fafafa;
   font-size: 1.8rem;
+  padding-top: 1rem;
+  text-align: right;
 }
 
 .emptystate {
+  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -24,4 +27,13 @@
 
 .molen {
   margin: 1.5rem;
+}
+
+@media only screen and (min-width: 823px) {
+
+  .content {
+    grid-area: order;
+    width: 70vw;
+    height: 100vh;
+  }
 }

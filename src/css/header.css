@@ -57,15 +57,4 @@ h1 {
     left: 90px;
     top: 600px;
   }
-
-  .prices {
-    grid-area: price;
-    width: 30vw;
-  }
-
-  .content {
-    grid-area: order;
-    width: 70vw;
-    height: 100vh;
-  }
 }
